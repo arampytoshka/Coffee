@@ -12,3 +12,4 @@ for day in range(100):
     if way >= height:
         break
 print(day)
+print(way)
