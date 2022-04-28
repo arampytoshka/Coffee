@@ -41,7 +41,7 @@ def volume_question():
     try:
         volume = int(input('Какой у вас объем стакана?\n'))
         if volume < 200:
-            print('Объем не может быть меньше 200')
+            print('Объем измеряется в миллилитрах и не может быть меньше 200')
             return volume_question()
         return volume
 
